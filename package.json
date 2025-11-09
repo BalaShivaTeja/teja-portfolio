@@ -1,0 +1,29 @@
+{
+  "name": "teja-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Portfolio of Bala Shiva Teja Kandimalla",
+  "homepage": ".",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --watchAll=false --passWithNoTests",
+    "lint": "echo \"No linter configured\" && exit 0",
+    "predeploy": "npm run build",
+    "deploy": "echo \"deploy via GitHub Actions\""
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.14.0",
+    "react-icons": "^4.10.1"
+  },
+  "devDependencies": {
+    "react-scripts": "5.0.1",
+    "@testing-library/react": "^14.0.0",
+    "@testing-library/jest-dom": "^6.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

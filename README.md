@@ -42,3 +42,4 @@ npm run build
 2. The `deploy-ghpages` workflow will automatically create/update the `gh-pages` branch.
 3. Go to **Settings → Pages** and set the source to **Branch: gh-pages / Folder: /** if not auto-configured.
 4. Wait a few minutes for GitHub Pages to publish.
+
